@@ -3,15 +3,16 @@
 // import Main from "./components/Main";
 // import Footer from "./components/Footer";
 // import Button from "./components/Button";
+import OrderEditor from "./components/OrderEditor"
 
-function Welcome({ name, isMember }) {
-  return (
-    <>{isMember ? `${name}님 다시 오셨군요` : `${name}님 가입하시겠어요?`}</>
-  );
-}
+// function Welcome({ name, isMember }) {
+//   return (
+//     <>{isMember ? `${name}님 다시 오셨군요` : `${name}님 가입하시겠어요?`}</>
+//   );
+// }
 
 export default function App() {
-  return <Welcome name={"이정환"} isMember={true} />;
+  return <OrderEditor/> ;
 }
 
 // function App() {
